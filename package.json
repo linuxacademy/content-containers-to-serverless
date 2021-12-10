@@ -1,29 +1,16 @@
 {
   "name": "forethought",
   "version": "0.2.1",
-  "description": "A demo to-do application for testing CI/CD platforms and other... platforms.",
+  "description": "a future to-do list",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "E. A. Grey",
+  "author": "EAG",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "jest": "^27.0.6",
-    "supertest": "^6.1.5"
-  },
-  "jest": {
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ],
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.js?$",
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "node"
-    ]
+    "express": "^4.17.1"
   }
 }
