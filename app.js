@@ -5,9 +5,6 @@ const port = process.env.PORT || 8080
 
 app.set('view engine', 'ejs');
 
-// Use CSS
-app.use(express.static("public"));
-
 // Get website files
 app.get("/", function (req, res) {
   res.status(200).render("index", );
